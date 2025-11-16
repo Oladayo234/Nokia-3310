@@ -2,12 +2,12 @@ import java.util.Scanner;
 public class Nokia{
     public static void main(String[]args){
     
-    menu();
-
-    }
-    
-
-    public static void menu(){
+//    menu();
+//
+//    }
+//    
+//
+//    public static void menu(){
      Scanner input = new Scanner(System.in);
      System.out.println("""
 
@@ -30,8 +30,8 @@ public class Nokia{
     Enter a number to navigate 
 """); 
        
-//    System.out.println("Chooose an option ");
-    int phoneBook = input.nextInt();
+
+        int phoneBook = input.nextInt();
 
     switch (phoneBook){
     case 1-> {
@@ -52,8 +52,8 @@ public class Nokia{
 
  
 
-//    System.out.println("Choose an option ");
-        int optionEight = input.nextInt();
+
+    int optionEight = input.nextInt();
 
     switch (optionEight){
     case 8-> 
@@ -69,10 +69,7 @@ public class Nokia{
 }
 
     
-//    System.out.print("Choose an option");
-        int message = input.nextInt();
-
-    switch (message){
+    switch (phoneBook){
     case 2-> {
     System.out.println("""
 
@@ -90,8 +87,6 @@ public class Nokia{
 """);
 
 
-
-//    System.out.println("Choose an option");
         int messageSettings = input.nextInt();
 
     switch (messageSettings){
@@ -103,7 +98,6 @@ public class Nokia{
 """);
      
 
-//    System.out.println("Choose an option");
         int set = input.nextInt();
 
     switch (set){
@@ -117,7 +111,6 @@ public class Nokia{
      }
 
 
-//    System.out.println("Choose an option");
         int common = input.nextInt();
 
     switch (common){
@@ -134,10 +127,8 @@ public class Nokia{
   }
 }
 
-//    System.out.println("Chooose an option");
-        int chat = input.nextInt();
 
-    switch (chat){
+    switch (phoneBook){
     case 3-> System.out.println("""
 
     1. Chat
@@ -146,10 +137,7 @@ public class Nokia{
      }
 
 
-//     System.out.println("Chooose an option");
-        int callRegister = input.nextInt();
-
-    switch (callRegister){
+    switch (phoneBook){
     case 4-> {System.out.println("""
 
     1. Missed calls
@@ -163,8 +151,6 @@ public class Nokia{
 
 """);
 
-
-//    System.out.println("Choose an option");
         int missedCalls = input.nextInt();
 
     switch (missedCalls){
@@ -174,7 +160,6 @@ public class Nokia{
 """);
     }
 
-//    System.out.println("Choose an option");
         int recievedCalls = input.nextInt();
 
     switch (recievedCalls){
@@ -184,7 +169,6 @@ public class Nokia{
 """);
     }
 
-//    System.out.println("Choose an option");
         int dialledNumber = input.nextInt();
 
     switch (dialledNumber){
@@ -194,7 +178,7 @@ public class Nokia{
 """);
     
     }
-//    System.out.println("Choose an option");
+
         int eraserecent = input.nextInt();
 
     switch (eraserecent){
@@ -204,7 +188,7 @@ public class Nokia{
 """);
     }
 
-//    System.out.println("Choose an option");
+
         int ShowCallDuration = input.nextInt();
 
     switch (ShowCallDuration){
@@ -220,7 +204,7 @@ public class Nokia{
     }
      
 
-//    System.out.println("Choose an option");
+
         int ShowCallCost = input.nextInt();
 
     switch (ShowCallCost){
@@ -233,7 +217,7 @@ public class Nokia{
 """);
     }
       
-//    System.out.println("Choose an option");
+
         int callCostSettings = input.nextInt();
 
     switch (callCostSettings){
@@ -245,7 +229,7 @@ public class Nokia{
 """);
     }
 
-//    System.out.println("Choose an option");
+
         int prepaid = input.nextInt();
 
     switch (prepaid){
@@ -257,10 +241,9 @@ public class Nokia{
     }
     }
 
-//    System.out.print("Choose an option");
-        int tones = input.nextInt();
 
-    switch (tones){
+
+    switch (phoneBook){
     case 5-> System.out.println("""
 
     1. Ringing tones
@@ -277,10 +260,8 @@ public class Nokia{
     }
 
 
-//     System.out.println("Chooose an option");
-        int settings = input.nextInt();
 
-    switch (settings){
+    switch (phoneBook){
     case 6-> {System.out.println("""
 
     1. Call Settings
@@ -290,7 +271,7 @@ public class Nokia{
     
 """);
 
-//    System.out.println("Choose an option");
+
         int callSetting = input.nextInt();
 
     switch (callSetting){
@@ -305,7 +286,7 @@ public class Nokia{
 """); 
     }
 
-//    System.out.println("Choose an option");
+
         int phoneSettings = input.nextInt();
 
     switch (phoneSettings){
@@ -321,7 +302,7 @@ public class Nokia{
 """);
     }
 
-//    System.out.println("Choose an option");
+
         int securitySettings = input.nextInt();
 
     switch (securitySettings){
@@ -336,7 +317,7 @@ public class Nokia{
 """);
     }
 
-//    System.out.println("Choose an option");
+
          int restoreFactorySettings = input.nextInt();
 
     switch (restoreFactorySettings){
@@ -344,16 +325,13 @@ public class Nokia{
     1. Restore factory settings
 
 """);
-   }
-   }
+        }
+       }
    }
 
 
     
-//    System.out.println("Choose an option");
-         int callDivert = input.nextInt();
-
-    switch (callDivert){
+    switch (phoneBook){
     case 7-> System.out.println("""
     1. Call divert
 
@@ -362,40 +340,30 @@ public class Nokia{
 
 
 
-//    System.out.println("Choose an option");
-         int games = input.nextInt();
-
-    switch (games){
+    switch (phoneBook){
     case 8-> System.out.println("""
     1. Games
 """);   
-    }
+    
+     }
+    
 
 
-//    System.out.println("Choose an option");
-         int calculator = input.nextInt();
-
-    switch (calculator){
+    switch (phoneBook){
     case 9-> System.out.println("""
     1. Calculator
 """);   
     }
 
 
-//    System.out.println("Choose an option");
-         int reminder = input.nextInt();
-
-    switch (reminder){
+    switch (phoneBook){
     case 10-> System.out.println("""
     1. reminder
 """);   
     }
 
 
-//    System.out.println("Choose an option");
-         int clock = input.nextInt();
-
-    switch (clock){
+    switch (phoneBook){
     case 11-> System.out.println("""
     1. Alarm clock
     2. Clock settings
@@ -407,19 +375,13 @@ public class Nokia{
     }
 
 
-//    System.out.println("Choose an option");
-         int profiles = input.nextInt();
-
-    switch (profiles){
+    switch (phoneBook){
     case 12-> System.out.println("""
     1. Profiles
 """);   
     }
 
-//   System.out.println("Choose an option");
-         int simService = input.nextInt();
-
-    switch (simService){
+    switch (phoneBook){
     case 13-> System.out.println("""
     1. SIM services
 """);   
